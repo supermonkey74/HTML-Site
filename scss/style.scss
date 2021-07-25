@@ -45,14 +45,14 @@ p {
 .text-primary {
 
 
-    color: black;
-    text-shadow: 3px 2px 2px yellowgreen
+    color: #fff;
+    // text-shadow: 3px 2px 4px $sbpurple;
 }
 
 .text-primary-1 { 
     
-    color: black;
-    text-shadow: 3px 2px 2px yellowgreen
+    color: #fff;
+    text-shadow: 3px 2px 1px rgb(24, 184, 220);
     
     
   
@@ -224,7 +224,8 @@ nav {
 section {
 
     height: 85%;
-    background-color: $super-light-purple;
+    background-color: black;
+    color: #fff;
 
 }
 
@@ -260,7 +261,8 @@ section {
     
     .item {
 
-        background-color: #fff;
+        background-color: rgb(70, 62, 62);
+        color:$super-light-purple;
         display: flex;
         flex-direction:column;
         align-items: center;
@@ -268,7 +270,7 @@ section {
         width:30%;
         margin: 1rem;
         border-radius: 15px;
-        box-shadow: 0 2px 5px black;
+        // box-shadow: 0 2px 5px black;
         
 
         p{
@@ -281,6 +283,7 @@ section {
             margin: .5rem 1rem;
         }
         a{
+            color:#fff;
             text-decoration: none;
 
             &:hover {
@@ -293,6 +296,8 @@ section {
                 color: #fff;
 
             }
+
+           
         }
        
         .item-image {

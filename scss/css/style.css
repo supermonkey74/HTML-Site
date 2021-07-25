@@ -28,13 +28,12 @@ p {
 }
 
 .text-primary {
-  color: black;
-  text-shadow: 3px 2px 2px yellowgreen;
+  color: #fff;
 }
 
 .text-primary-1 {
-  color: black;
-  text-shadow: 3px 2px 2px yellowgreen;
+  color: #fff;
+  text-shadow: 3px 2px 1px #18b8dc;
 }
 
 nav {
@@ -163,7 +162,8 @@ nav img {
 
 section {
   height: 85%;
-  background-color: #E9E2EE;
+  background-color: black;
+  color: #fff;
 }
 
 .facility-inside-container {
@@ -195,7 +195,8 @@ section {
 }
 
 .items .item {
-  background-color: #fff;
+  background-color: #463e3e;
+  color: #E9E2EE;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,8 +211,6 @@ section {
   width: 30%;
   margin: 1rem;
   border-radius: 15px;
-  -webkit-box-shadow: 0 2px 5px black;
-          box-shadow: 0 2px 5px black;
 }
 
 .items .item p {
@@ -223,6 +222,7 @@ section {
 }
 
 .items .item a {
+  color: #fff;
   text-decoration: none;
 }
 
