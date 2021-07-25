@@ -147,6 +147,8 @@ nav img {
   top: 0;
   left: 0;
   background-color: rgba(240, 236, 243, 0.09);
+  -webkit-animation: anim 3s .05s;
+          animation: anim 3s .05s;
 }
 
 .showcase-container .l-heading {
@@ -158,6 +160,24 @@ nav img {
 .showcase-container .l-heading .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
+}
+
+@-webkit-keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
 }
 
 section {

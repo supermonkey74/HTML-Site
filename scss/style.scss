@@ -198,6 +198,7 @@ nav {
             top: 0;
             left: 0;
             background-color: rgba(240,236,243, 0.09);
+            animation: anim 3s .05s ;
 
         } 
 
@@ -206,17 +207,31 @@ nav {
             font-size:4rem;
             margin-bottom:0.75rem;
             line-height: 1.1;
+            
 
             .lead {
 
                 font-size: 1.3rem;
                 margin-bottom: 2rem;
+                
 
             }
 
         }
 
     }
+
+   
+      
+      @keyframes anim {
+        0% {
+            opacity: 0;
+        }
+      
+        100% {  
+            opacity: 100;
+        }
+      }
 
 
     // #facility {
