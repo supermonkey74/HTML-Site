@@ -147,7 +147,7 @@ nav img {
   position: relative;
   top: 0;
   left: 0;
-  background-color: rgba(240, 236, 243, 0.2);
+  background-color: rgba(240, 236, 243, 0.09);
 }
 
 .showcase-container .l-heading {
@@ -235,7 +235,7 @@ section {
 }
 
 .items .item .item-image {
-  width: 200px;
+  width: 275px;
   padding-bottom: 1rem;
 }
 
