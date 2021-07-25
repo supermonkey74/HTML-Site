@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$sbpurple: #6f438e;
+$sbpurple-lighter:#a88ebb;
+$super-light-purple: #E9E2EE;
+$sbblue: #211e61;
+$sbgrey: #9e9e9e;
+$sbolive: #628e43;
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   line-height:1.4;
+    
+}
+
+a {
+
+    text-decoration: underline;
+}
+
+p {
+    margin: 0.75 0;
+}
+
+
+// Utility Classes
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    // overflow: hidden;
+
+}
+
+.center-text {
+    text-align: center;
+}
+
+.text-primary {
+
+
+    color: black;
+    text-shadow: 3px 2px 2px yellowgreen
+}
+
+.text-primary-1 { 
+    
+    color: black;
+    text-shadow: 3px 2px 2px yellowgreen
+    
+    
+  
+
+        
+    }
+    
+
+
+// Navbar
+
+nav {
+
+    display: flex;
+    position: relative;
+    top: 0;
+    padding: 1rem;
+    background: $sbblue;
+    color: $sbpurple;
+    border-bottom: $sbpurple solid 5px;
+    box-shadow: 0 2px 10px black;
+    justify-content: space-around;
+    z-index: 1;
+
+
+ img {
+
+   width: 10em;
+ }
+
+}
+
+
+#navbar {
+
+    ul {
+
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+
+        li {
+
+
+            a {
+
+                 color: #fff;   
+                 padding: 0.75rem;
+                 margin: 0.25rem;
+                 text-decoration: none;
+
+                 &:hover {
+
+                    background: $sbpurple ;
+                    border-radius: 5px;
+                 }
+
+            }
+
+            .events {
+
+                background-color: transparent;
+                border: $sbpurple solid;
+                cursor: pointer;
+                border-radius: 5px;
+                
+                &:hover {
+                    color: $sbgrey;
+
+                }
+            }
+
+        }
+
+    }
+
+    
+
+}
+
+.social {
+
+    width: 20%;
+    justify-content: center;
+    
+
+    .fab {
+
+        color:#fff;
+        margin: 1rem .5rem;
+        padding: 0.50rem;
+
+        &:hover {
+
+            color: $sbpurple-lighter;
+            cursor: pointer;
+        }
+
+    }
+    
+    
+    .fal {
+       
+        margin: 1rem .5rem;
+        color: #fff;
+        padding: 0.50rem;
+
+        &:hover {
+
+            color: $sbpurple-lighter;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+
+// Showcase
+
+    .showcase-container {
+
+
+        background: url('https://res.cloudinary.com/dmwa55z8u/image/upload/v1607733115/E2551863-C12F-42AE-881C-32662967A72D_hnszof.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 88.5vh;
+        color: rgb(193, 194, 172);
+        
+
+        .showcase-content {
+
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            // padding: 0 3rem;
+            // Overlay
+            position: relative;
+            top: 0;
+            left: 0;
+            background-color: rgba(240,236,243, 0.2);
+
+        } 
+
+        .l-heading {
+
+            font-size:4rem;
+            margin-bottom:0.75rem;
+            line-height: 1.1;
+
+            .lead {
+
+                font-size: 1.3rem;
+                margin-bottom: 2rem;
+
+            }
+
+        }
+
+    }
+
+
+    // #facility {
+
+section {
+
+    height: 85%;
+    background-color: $super-light-purple;
+
+}
+
+.facility-inside-container {
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.facility-description {
+
+    padding: 5px 0;
+
+    
+
+
+}
+
+.inside-facility-description {
+
+       padding: 5px 0;
+}
+
+
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    ;
+    // width: 100%;
+    
+    
+    .item {
+
+        background-color: #fff;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        padding: 1rem;
+        width:30%;
+        margin: 1rem;
+        border-radius: 15px;
+        box-shadow: 0 2px 5px black;
+        
+
+        p{
+
+            padding: 3px;
+        }
+
+        li {
+
+            margin: .5rem 1rem;
+        }
+        a{
+            text-decoration: none;
+
+            &:hover {
+
+                
+                background: $sbpurple ;
+                border-radius: 2px;
+                font-weight: 100;
+                padding: 2px;
+                color: #fff;
+
+            }
+        }
+       
+        .item-image {
+
+            width: 200px;
+            padding-bottom: 1rem;
+
+            
+        }
+        
+    }
+    
+}
+
+
+
+    .m-heading {
+
+        font-size: 2rem;
+        margin-bottom:0.75rem;
+        line-height: 1.1;
+    }
+
+    
+
+    .py-1 { padding: 1.5rem 0;}
+    .py-2 { padding: 2rem 0;}
+    .py-3 { padding: 4rem 0;}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
