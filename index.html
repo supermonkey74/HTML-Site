@@ -8,15 +8,16 @@
   <link rel="stylesheet"  media="screen and (min-width: 1100px)"href="/scss/css/widescreen.css">
   <link rel="stylesheet" href="/scss/css/style.css">
   <script src="https://kit.fontawesome.com/c548706477.js" crossorigin="anonymous"></script>
+  <script src="./js/sb.js"></script>
   
   <title>SBF</title>
 </head>
-<body>
+<body id="top">
   
 
 <nav id="navbar">
   
-    <img src="./assets/Spellbound2.jpg" alt="Spellbound_Logo">
+    <img id="navbar-img" src="./assets/Spellbound2.jpg" alt="Spellbound_Logo">
   
     <ul class="social">
       <a href="https://www.facebook.com/Spellbound-Farm-1577428402546846/" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -26,10 +27,10 @@
          
     </ul>
 <ul class="">
-    <li class=""><a class="" href="#home">Home</a></li>
-    <li class=""><a class="" href="#facility">Facility</a></li>
-    <li class=""><a class="" href="#training">Training</a></li>
-    <li class=""><a class="events" href="#events">Events</a></li>
+    <li class=""><a id="navbar-link" href="#top">Home</a></li>
+    <li class=""><a id="navbar-link"  href="#facility">Facility</a></li>
+    <li class=""><a id="navbar-link"  href="#training">Training</a></li>
+    <li class=""><a id="navbar-link" class="events" href="#events">Events</a></li>
   </ul>
 </div>
 </nav>
@@ -142,7 +143,25 @@
 
 </section>
 
-
+<script>
+  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 670) {
+      document.getElementById("navbar").style.padding = ".01rem";
+     document.getElementById("navbar").style.background = "black";
+      document.getElementById("navbar-img").style.width = ".01px";
+      document.getElementById("navbar").style.border.bottom = "#6f438e";
+      
+    } else {
+      document.getElementById("navbar").style.padding = ".5rem";
+      document.getElementById("navbar").style.background = "#211e61";
+      document.getElementById("navbar-img").style.width = "200px";
+      document.getElementById("navbar").style.border.bottom = "none";
+    }
+  }
+  </script>
 
 </body>
 </html>

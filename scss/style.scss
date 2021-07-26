@@ -67,10 +67,11 @@ p {
 nav {
 
     display: flex;
-    position: relative;
+    position: sticky;
     top: 0;
     padding: 1rem;
     background: $sbblue;
+    // opacity: .7;
     color: $sbpurple;
     border-bottom: $sbpurple solid 5px;
     box-shadow: 0 2px 10px black;
@@ -104,11 +105,14 @@ nav {
                  padding: 0.75rem;
                  margin: 0.25rem;
                  text-decoration: none;
+                 
+                 
 
                  &:hover {
 
                     background: $sbpurple ;
                     border-radius: 5px;
+                    
                  }
 
             }
@@ -233,6 +237,16 @@ nav {
         }
       }
 
+    //   @keyframes new-anim {
+    //     0% {
+    //         opacity: 0;
+    //     }
+      
+    //     100% {  
+    //         opacity: 100;
+    //     }
+    //   }
+
 
     // #facility {
 
@@ -242,6 +256,11 @@ section {
     background-color: black;
     color: #fff;
 
+}
+
+.facility {
+
+    padding: 2rem;
 }
 
 .facility-inside-container {
@@ -335,6 +354,7 @@ section {
         font-size: 2rem;
         margin-bottom:0.75rem;
         line-height: 1.1;
+        padding-top: 5rem;
     }
 
     
