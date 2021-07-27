@@ -73,7 +73,7 @@ nav {
     background: $sbblue;
     // opacity: .7;
     color: $sbpurple;
-    border-bottom: $sbpurple solid 5px;
+    // border-bottom: $sbpurple solid 5px;
     box-shadow: 0 2px 10px black;
     justify-content: space-around;
     z-index: 1;
@@ -250,12 +250,14 @@ nav {
 
     // #facility {
 
-section {
+.bg-light {
+
+     
 
     height: 85%;
     background-color: black;
     color: #fff;
-
+    
 }
 
 .facility {
@@ -364,7 +366,15 @@ section {
     .py-3 { padding: 4rem 0;}
     
     
+// Training Page
 
+.training-page {
+
+        background: $sbgrey ;
+        width: 100vw;
+        
+
+}
 
 
 

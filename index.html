@@ -29,7 +29,7 @@
 <ul class="">
     <li class=""><a id="navbar-link" href="#top">Home</a></li>
     <li class=""><a id="navbar-link"  href="#facility">Facility</a></li>
-    <li class=""><a id="navbar-link"  href="#training">Training</a></li>
+    <li class=""><a id="navbar-link"  href="#training-page">Training</a></li>
     <li class=""><a id="navbar-link" class="events" href="#events">Events</a></li>
   </ul>
 </div>
@@ -143,6 +143,26 @@
 
 </section>
 
+<div id="training-page">
+  
+<section class="training">
+
+
+  <h2 class="m-heading center-text"><span class="text-primary-1">Training</span></h2>
+
+  <div class="">
+    <p>Tracey has been the owner of Spellbound Farm since 2004, and offers
+      training and lesson packages for all level of riders.</p>
+      <p>We offer  the once a week lesson program to students, or custom full
+        training/lesson packages for boarders and lease customers.</p>
+        <p>At Spellbound Farm, we offer well trained lesson horses and
+          ponies for all levels.  </p>
+  </div>
+
+</section>
+</div>
+
+
 <script>
   // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
   window.onscroll = function() {scrollFunction()};
@@ -150,15 +170,16 @@
   function scrollFunction() {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 670) {
       document.getElementById("navbar").style.padding = ".01rem";
+      document.getElementById("navbar").style.padding = ".01rem";
      document.getElementById("navbar").style.background = "black";
       document.getElementById("navbar-img").style.width = ".01px";
-      document.getElementById("navbar").style.border.bottom = "#6f438e";
+      document.getElementById("navbar").style.borderBottom = "#000";
       
     } else {
       document.getElementById("navbar").style.padding = ".5rem";
       document.getElementById("navbar").style.background = "#211e61";
       document.getElementById("navbar-img").style.width = "200px";
-      document.getElementById("navbar").style.border.bottom = "none";
+      
     }
   }
   </script>
