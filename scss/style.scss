@@ -370,14 +370,73 @@ nav {
 
 .training-page {
 
-        background: $sbgrey ;
+        background-color: $sbgrey ;
         width: 100vw;
         
 
 }
 
+.training-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-bottom: 2rem;
+}
+
+.training-top {
+
+    width: 100vw;
+    height: 200px;
+    padding-top: 2rem;
+    text-align: center;
+
+}
+
+.training-photos-1 img{
+
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+   margin-left: 1rem;
+    
+
+}
+
+.training-photos-2 img{
+
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+   margin-left: 1rem;
+    
+
+}
+
+.training-photos-3 img{
+
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+   margin-left: 1rem;
+    
+
+}
 
 
+#events-page {
+
+        background-color: $sbgrey ;
+        width: 100vw;
+        height: 100vh;
+
+}
 
 
 
