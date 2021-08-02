@@ -54,6 +54,13 @@ p {
     color: #fff;
     text-shadow: 3px 2px 1px rgb(24, 184, 220);
     
+}
+
+.text-primary-2 { 
+    
+    color: $sbgrey;
+    text-shadow: 3px 2px 1px $sbpurple;
+    
     
   
 
@@ -368,9 +375,9 @@ nav {
     .py-3 { padding: 4rem 0;}
     
     
-// Training Page
+// Services Page
 
-.training-page {
+.services-page {
 
         background-color: $sbgrey ;
         width: 100vw;
@@ -378,15 +385,53 @@ nav {
 
 }
 
-.training-container {
+.services-container {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:center;
     padding-bottom: 2rem;
+    // border: black solid 2px;
+
+    .items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        ;
+        // width: 100%;
+        
+        
+        .item-serv {
+    
+            // background-color: rgb(70, 62, 62);
+            color:$sbpurple;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            padding: 1rem;
+            width:30%;
+            margin: 1rem;
+            border-radius: 15px;
+            border: $sbpurple solid 1px;
+            // box-shadow: 0 2px 5px black;
+
+            p {
+                padding-top: .5rem;
+                line-height: 1.1;
+            }
+
+            .item-image {
+
+                width: 300px;
+
+                
+                
+            }
+        }
+    }    
 }
 
-.training-top {
+.services-top {
 
     width: 100vw;
     height: 200px;
@@ -395,45 +440,8 @@ nav {
 
 }
 
-.training-photos-1 img{
 
-    width: 400px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    padding: .5rem;
-    border-radius: 25px;
-    margin: .3rem;
-    
 
-}
-
-.training-photos-2 img{
-
-    width: 400px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    padding: .5rem;
-    border-radius: 25px;
-    margin: .3rem;
-    
-
-}
-
-.training-photos-3 img{
-
-    width: 400px;
-    border-radius: 25px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    padding: .5rem;
-    border-radius: 25px;
-   margin: .3rem;
-    
-
-}
 
 
 #events-page {

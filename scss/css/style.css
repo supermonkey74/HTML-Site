@@ -36,6 +36,11 @@ p {
   text-shadow: 3px 2px 1px #18b8dc;
 }
 
+.text-primary-2 {
+  color: #9e9e9e;
+  text-shadow: 3px 2px 1px #6f438e;
+}
+
 nav {
   display: flex;
   position: sticky;
@@ -218,54 +223,46 @@ nav img {
   padding: 4rem 0;
 }
 
-.training-page {
+.services-page {
   background-color: #9e9e9e;
   width: 100vw;
 }
 
-.training-container {
+.services-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   padding-bottom: 2rem;
 }
+.services-container .items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.services-container .items .item-serv {
+  color: #6f438e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 30%;
+  margin: 1rem;
+  border-radius: 15px;
+  border: #6f438e solid 1px;
+}
+.services-container .items .item-serv p {
+  padding-top: 0.5rem;
+  line-height: 1.1;
+}
+.services-container .items .item-serv .item-image {
+  width: 300px;
+}
 
-.training-top {
+.services-top {
   width: 100vw;
   height: 200px;
   padding-top: 2rem;
   text-align: center;
-}
-
-.training-photos-1 img {
-  width: 400px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem;
-  border-radius: 25px;
-  margin: 0.3rem;
-}
-
-.training-photos-2 img {
-  width: 400px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem;
-  border-radius: 25px;
-  margin: 0.3rem;
-}
-
-.training-photos-3 img {
-  width: 400px;
-  border-radius: 25px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem;
-  border-radius: 25px;
-  margin: 0.3rem;
 }
 
 #events-page {
