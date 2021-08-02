@@ -297,7 +297,7 @@ nav {
     
     .item {
 
-        background-color: rgb(70, 62, 62);
+        // background-color: rgb(70, 62, 62);
         color:$super-light-purple;
         display: flex;
         flex-direction:column;
@@ -306,6 +306,7 @@ nav {
         width:30%;
         margin: 1rem;
         border-radius: 15px;
+        border: #9e9e9e solid 1px;
         // box-shadow: 0 2px 5px black;
         
 
@@ -339,6 +340,7 @@ nav {
         .item-image {
 
             width: 275px;
+            border-radius: 15px;
             // height: 241px;
             padding-bottom: 1rem;
 
@@ -399,8 +401,9 @@ nav {
     height: 300px;
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
-   margin-left: 1rem;
+    padding: .5rem;
+    border-radius: 25px;
+    margin: .3rem;
     
 
 }
@@ -411,8 +414,9 @@ nav {
     height: 300px;
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
-   margin-left: 1rem;
+    padding: .5rem;
+    border-radius: 25px;
+    margin: .3rem;
     
 
 }
@@ -420,11 +424,13 @@ nav {
 .training-photos-3 img{
 
     width: 400px;
+    border-radius: 25px;
     height: 300px;
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
-   margin-left: 1rem;
+    padding: .5rem;
+    border-radius: 25px;
+   margin: .3rem;
     
 
 }
