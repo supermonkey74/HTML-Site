@@ -124,6 +124,9 @@ nav img {
   background-color: rgba(240, 236, 243, 0.09);
   animation: anim 3s 0.05s;
 }
+.showcase-container .showcase-content .fas {
+  size: 1px;
+}
 .showcase-container .l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;

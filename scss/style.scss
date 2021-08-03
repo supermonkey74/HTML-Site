@@ -211,6 +211,10 @@ nav {
             background-color: rgba(240,236,243, 0.09);
             animation: anim 3s .05s ;
 
+            .fas {
+                size: 1px;
+            }
+
         } 
 
         .l-heading {
@@ -224,6 +228,7 @@ nav {
 
                 font-size: 1.3rem;
                 margin-bottom: 2rem;
+                
                 
 
             }
