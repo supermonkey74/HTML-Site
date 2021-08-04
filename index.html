@@ -18,7 +18,7 @@
 <nav id="navbar">
   
     <img id="navbar-img" src="./assets/Spellbound2.jpg" alt="Spellbound_Logo">
-    <img id="navbar-img2" src="./assets/SB-logo-black.jpg" alt="Spellbound_Logo">
+    <!-- <img id="navbar-img2" src="./assets/SB-logo-black.jpg" alt="Spellbound_Logo"> -->
   
     <ul class="social">
       <a href="https://www.facebook.com/Spellbound-Farm-1577428402546846/" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -46,6 +46,40 @@
   </div>
 </header>
 
+
+<!-- Section: About -->
+
+<section  class="bg-light py-1" id="about-us">
+  <div class="container">
+    <h2 class="m-heading center-text"><span class="text-primary-1">About us</span></h2>
+
+      <p class="">Spellbound Farm is a private training and show barn located in Van Alstyne, Texas. 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis non velit voluptatem tenetur molestias tempora vitae, totam consectetur pariatur. Quis dolorum doloremque quam repellat incidunt! Consequuntur aliquam dicta eius quo beatae. Eaque, veritatis? Mollitia rerum dolor, itaque rem asperiores sed odit, deserunt dolorum, doloribus explicabo quae numquam perspiciatis incidunt aspernatur!</p>
+
+        <h3>Owner / Head Trainer: <span>Tracey Badley</span></h3>
+        
+        <div class="trainers">
+
+          <img class="trainer-photo" src="./assets/Tracey.JPG" alt="Photo of Tracey">
+
+          
+
+          <p>Tracey - Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nemo cumque dolor dolores id a laboriosam nam enim esse ipsam eaque adipisci quibusdam cupiditate veritatis debitis quia temporibus illo voluptas possimus, nostrum nulla praesentium inventore quis? Laborum, accusamus. Iste fuga alias distinctio odio sapiente omnis aliquid dolor quaerat delectus natus consectetur culpa enim aspernatur magnam veniam autem, repellat dolorem qui! </p>
+        </div>
+        <div>
+          <h3>Assistant Trainer / Rider: <span>Kayla Larson</span></h3>
+        
+        <div class="trainers">
+
+          <img class="trainer-photo" src="./assets/Kayla.JPG" alt="Photo of Kayla">
+
+          
+
+          <p>Kayla - Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nemo cumque dolor dolores id a laboriosam nam enim esse ipsam eaque adipisci quibusdam cupiditate veritatis debitis quia temporibus illo voluptas possimus, nostrum nulla praesentium inventore quis? Laborum, accusamus. Iste fuga alias distinctio odio sapiente omnis aliquid dolor quaerat delectus natus consectetur culpa enim aspernatur magnam veniam autem, repellat dolorem qui! </p>
+        </div>
+</div>
+
+</section>
 <!-- Section: Facility -->
 
 <section  class="bg-light py-3">
@@ -348,16 +382,20 @@
     if (document.body.scrollTop > 85 || document.documentElement.scrollTop > 670) {
       document.getElementById("navbar").style.padding = ".01rem";
       document.getElementById("navbar").style.padding = ".01rem";
-     document.getElementById("navbar").style.background = "black";
-      document.getElementById("navbar-img").style.width = ".01px";
-      document.getElementById("navbar-img2").style.width = "80px";
+     document.getElementById("navbar").style.background = "#211e61";
+    //  document.getElementById("navbar").style.opacity = "80%";
+      document.getElementById("navbar-img").style.width = "7rem";
+      document.getElementById("navbar-img").style.padding = ".4rem";
+      document.getElementById("navbar-img").style.height = "4rem";
+      // document.getElementById("navbar-img2").style.width = "80px";
       document.getElementById("navbar").style.borderBottom = "#000";
       
     } else {
       document.getElementById("navbar").style.padding = ".5rem";
       document.getElementById("navbar").style.background = "#211e61";
-      document.getElementById("navbar-img").style.width = "200px";
-      document.getElementById("navbar-img2").style.width = ".01px";
+      document.getElementById("navbar-img").style.width = "10rem";
+      document.getElementById("navbar-img").style.height = "5rem";
+      // document.getElementById("navbar-img2").style.width = ".01px";
       
     }
   }

@@ -24,7 +24,7 @@ p {
 }
 
 .center-text {
-  text-align: center;
+  text-align: start;
 }
 
 .text-primary {
@@ -32,13 +32,17 @@ p {
 }
 
 .text-primary-1 {
-  color: #fff;
-  text-shadow: 3px 2px 1px #18b8dc;
+  color: #211e61;
 }
 
 .text-primary-2 {
   color: #9e9e9e;
   text-shadow: 3px 2px 1px #6f438e;
+}
+
+.bg-light {
+  background-color: #9e9e9e;
+  color: #211e61;
 }
 
 nav {
@@ -125,7 +129,8 @@ nav img {
   animation: anim 3s 0.05s;
 }
 .showcase-container .showcase-content .fas {
-  size: 1px;
+  font-size: 0.6rem;
+  padding: 5px;
 }
 .showcase-container .l-heading {
   font-size: 4rem;
@@ -145,10 +150,24 @@ nav img {
     opacity: 100;
   }
 }
-.bg-light {
-  height: 85%;
-  background-color: black;
-  color: #fff;
+p {
+  padding: 0 0 2rem 0;
+}
+
+.trainers {
+  display: flex;
+}
+.trainers p {
+  padding: 2rem;
+}
+.trainers h3 {
+  padding-bottom: 0 0 2rem 0;
+}
+
+.trainer-photo {
+  width: 8rem;
+  height: 8rem;
+  padding: 1rem;
 }
 
 .facility {

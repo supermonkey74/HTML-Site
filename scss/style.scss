@@ -39,7 +39,7 @@ p {
 }
 
 .center-text {
-    text-align: center;
+    text-align:start;
 }
 
 .text-primary {
@@ -51,8 +51,8 @@ p {
 
 .text-primary-1 { 
     
-    color: #fff;
-    text-shadow: 3px 2px 1px rgb(24, 184, 220);
+    color: $sbblue;
+    // text-shadow: 3px 2px 1px rgb(24, 184, 220);
     
 }
 
@@ -67,6 +67,12 @@ p {
         
     }
     
+    .bg-light {
+
+        background-color: $sbgrey;
+        color: $sbblue;
+        
+    }
 
 
 // Navbar
@@ -212,7 +218,8 @@ nav {
             animation: anim 3s .05s ;
 
             .fas {
-                size: 1px;
+                font-size: .6rem;
+                padding: 5px;
             }
 
         } 
@@ -260,17 +267,41 @@ nav {
     //   }
 
 
-    // #facility {
+// About section
 
-.bg-light {
 
-     
+p {
 
-    height: 85%;
-    background-color: black;
-    color: #fff;
-    
+    padding: 0 0 2rem 0 ;
 }
+    
+.trainers {
+
+    display: flex;
+    // border: $sbolive 1px solid;
+
+    p {
+
+        padding: 2rem ;
+    }
+    h3 {
+
+        padding-bottom: 0 0 2rem 0;
+    }
+}
+
+.trainer-photo {
+
+    width: 8rem;
+    height: 8rem;
+    padding: 1rem;
+    // border: $sbpurple solid 1px;
+}
+
+
+// Facility page 
+
+
 
 .facility {
 
