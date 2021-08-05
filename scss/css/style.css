@@ -303,6 +303,10 @@ nav img {
   object-fit: cover;
 }
 
+.gallery__item:hover {
+  width: 600px;
+}
+
 .gallery__item--1 {
   grid-column-start: 1;
   grid-column-end: 3;
