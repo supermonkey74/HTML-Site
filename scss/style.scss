@@ -498,6 +498,8 @@ nav {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 15px;
+
+   
 }
 
 .gallery__img {
@@ -505,6 +507,15 @@ nav {
     height: 100%;
     object-fit: cover;
     
+  }
+
+  .gallery__item {
+
+    // &:hover {
+
+    //     display:block; 
+    //     width: 600px;
+    // }
   }
   
   .gallery__item--1 {
