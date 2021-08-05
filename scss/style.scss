@@ -5,6 +5,7 @@ $sbpurple-lighter:#a88ebb;
 $super-light-purple: #E9E2EE;
 $sbblue: #211e61;
 $sbgrey: #9e9e9e;
+$sblight-grey: #F5F5F5;
 $sbolive: #628e43;
 
 * { 
@@ -57,21 +58,29 @@ p {
 }
 
 .text-primary-2 { 
-    
+
     color: $sbgrey;
     text-shadow: 3px 2px 1px $sbpurple;
-    
-    
-  
-
-        
-    }
+}
     
     .bg-light {
 
-        background-color: $sbgrey;
+        background-color: $sblight-grey;
         color: $sbblue;
         
+    }
+
+    .bg-dark {
+
+        background-color: $sbgrey;
+        color: $sbblue;
+
+    }
+
+    .description {
+
+        padding: 5px 0;
+
     }
 
 
@@ -151,6 +160,7 @@ nav {
 
 }
 
+// Social links
 .social {
 
     width: 20%;
@@ -268,12 +278,6 @@ nav {
 
 
 // About section
-
-
-p {
-
-    padding: 0 0 2rem 0 ;
-}
     
 .trainers {
 
@@ -314,14 +318,8 @@ p {
     flex-direction: column;
     
 }
-.facility-description {
-
-    padding: 5px 0;
-
-    
 
 
-}
 
 .inside-facility-description {
 
@@ -341,15 +339,15 @@ p {
     .item {
 
         // background-color: rgb(70, 62, 62);
-        color:$super-light-purple;
+        color:$sbpurple;
         display: flex;
         flex-direction:column;
         align-items: center;
         padding: 1rem;
-        width:30%;
+        width:15rem;
         margin: 1rem;
-        border-radius: 15px;
-        border: #9e9e9e solid 1px;
+        // border-radius: 15px;
+        // border: #9e9e9e solid 1px;
         // box-shadow: 0 2px 5px black;
         
 
@@ -382,8 +380,9 @@ p {
        
         .item-image {
 
-            width: 275px;
-            border-radius: 15px;
+            width: 16rem;
+            height: 15rem;
+            // border-radius: 15px;
             // height: 241px;
             padding-bottom: 1rem;
 
@@ -441,16 +440,16 @@ p {
         .item-serv {
     
             // background-color: rgb(70, 62, 62);
-            color:$sbpurple;
-            display: flex;
-            flex-direction:column;
-            align-items: center;
-            padding: 1rem;
-            width:30%;
-            margin: 1rem;
-            border-radius: 15px;
-            border: $sbpurple solid 1px;
-            // box-shadow: 0 2px 5px black;
+        color:$sbpurple;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        padding: 1rem;
+        width:15rem;
+        margin: 1rem;
+        // border-radius: 15px;
+        // border: #9e9e9e solid 1px;
+        // box-shadow: 0 2px 5px black;
 
             p {
                 padding-top: .5rem;
@@ -459,7 +458,11 @@ p {
 
             .item-image {
 
-                width: 300px;
+                width: 16rem;
+            height: 15rem;
+            // border-radius: 15px;
+            // height: 241px;
+            padding-bottom: 1rem;
 
                 
                 
@@ -468,12 +471,12 @@ p {
     }    
 }
 
-.services-top {
+.services-inside-container {
 
     width: 100vw;
     height: 200px;
     padding-top: 2rem;
-    text-align: center;
+   
 
 }
 
@@ -482,19 +485,26 @@ p {
 
 .photo-container {
 
-    width: 60%;
-  margin: 2rem auto; 
-    border: black 2px solid;
+    width: 95%;
+    margin: 2rem auto; 
+    // border: black 2px solid;
     
         
 
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
 }
 
 .gallery__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block; 
+    
   }
   
   .gallery__item--1 {
@@ -565,9 +575,9 @@ p {
 
 #events-page {
 
-        background-color: $sbgrey ;
-        width: 100vw;
-        height: 100vh;
+        // background-color: $sbgrey ;
+         width: 100vw;
+         height: 100vh;
 
 }
 
