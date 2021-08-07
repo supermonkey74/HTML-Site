@@ -396,6 +396,24 @@ nav img {
   width: 80%;
   /* Could be more or less, depending on screen size */
 }
+.contact-modal-content h3 {
+  text-decoration: underline;
+  padding-bottom: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+}
+
+.contact-info {
+  flex-direction: column;
+}
+.contact-info a {
+  text-decoration: none;
+}
+.contact-info .contact {
+  margin-right: 3rem;
+}
 
 /* The Close Button */
 .close {

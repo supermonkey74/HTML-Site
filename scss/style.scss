@@ -593,8 +593,11 @@ nav {
 
 }
 
+// Contact information
 
-// Training Modal
+
+
+// Contact Modal
 
 /* The Modal (background) */
 .contactModal {
@@ -617,6 +620,38 @@ nav {
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    
+    h3 {
+
+        text-decoration: underline;
+        padding-bottom: .5rem;
+    }
+
+    
+
+    
+  }
+
+  .contact-info-container {
+
+    display: flex;
+  }
+
+  .contact-info {
+
+    flex-direction: column;
+    // padding: .5rem;
+
+    a {
+
+        text-decoration: none;
+        // margin:.5rem;
+    }
+
+    .contact {
+
+        margin-right: 3rem;
+    }
   }
   
   /* The Close Button */
