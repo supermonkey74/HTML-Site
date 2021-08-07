@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="/scss/css/mobile.css">
   <link rel="stylesheet"  media="screen and (min-width: 1100px)"href="/scss/css/widescreen.css">
-  <!-- <link rel="stylesheet" href="/scss/css/style.css"> -->
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/scss/css/style.css">
+  <!-- <link rel="stylesheet" href="/css/style.css"> -->
+  
+  
   <script src="https://kit.fontawesome.com/c548706477.js" crossorigin="anonymous"></script>
-  <script src="./js/sb.js"></script>
   
   <title>Spellbound Farm Hunter / Jumpers</title>
 </head>
@@ -264,7 +265,18 @@
       <div class="">
         
         
-          
+        <button id="myBtn">Click for more information</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+        
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+          </div>
+        
+        </div>
 
           <p>(We can write a description here of what this is)</p>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -375,37 +387,18 @@
   
     <h2 class="m-heading center-text"><span class="text-primary-1">Events</span></h2>
   
-    <div class="events-top "></div>
+    <div class="events-top ">
+
+
+    </div>
     
     </div>
     </section>
 
-<script>
-  // When the user scrolls down from the top of the document, resize the navbar's padding and the logo's font size
-  window.onscroll = function() {scrollFunction()};
-  
-  function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 400) {
-      document.getElementById("navbar").style.padding = ".01rem";
-      document.getElementById("navbar").style.padding = ".01rem";
-     document.getElementById("navbar").style.background = "#211e61";
-    //  document.getElementById("navbar").style.opacity = "80%";
-      document.getElementById("navbar-img").style.width = "7rem";
-      document.getElementById("navbar-img").style.padding = ".4rem";
-      document.getElementById("navbar-img").style.height = "4rem";
-      // document.getElementById("navbar-img2").style.width = "80px";
-      document.getElementById("navbar").style.borderBottom = "#000";
-      
-    } else {
-      document.getElementById("navbar").style.padding = ".5rem";
-      document.getElementById("navbar").style.background = "#211e61";
-      document.getElementById("navbar-img").style.width = "10rem";
-      document.getElementById("navbar-img").style.height = "5rem";
-      // document.getElementById("navbar-img2").style.width = ".01px";
-      
-    }
-  }
-  </script>
 
+  
+
+  <script src="./js/navbar.js"></script>
+  <script src="./js/modal.js"></script>
 </body>
 </html>
