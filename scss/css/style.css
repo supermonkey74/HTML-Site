@@ -191,6 +191,7 @@ nav img {
 .items {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-around;
 }
 .items .item {
@@ -364,7 +365,7 @@ nav img {
 }
 
 /* The Modal (background) */
-.modal {
+.trainingModal {
   display: none;
   /* Hidden by default */
   position: fixed;
@@ -386,7 +387,7 @@ nav img {
 }
 
 /* Modal Content/Box */
-.modal-content {
+.training-modal-content {
   background-color: #fefefe;
   margin: 15% auto;
   /* 15% from the top and centered */
