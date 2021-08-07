@@ -400,18 +400,16 @@ nav img {
   text-decoration: underline;
   padding-bottom: 0.5rem;
 }
-
-.contact-info-container {
+.contact-modal-content .contact-info-container {
   display: flex;
 }
-
-.contact-info {
+.contact-modal-content .contact-info-container .contact-info {
   flex-direction: column;
 }
-.contact-info a {
+.contact-modal-content .contact-info-container .contact-info a {
   text-decoration: none;
 }
-.contact-info .contact {
+.contact-modal-content .contact-info-container .contact-info .contact {
   margin-right: 3rem;
 }
 

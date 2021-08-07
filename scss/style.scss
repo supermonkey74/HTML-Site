@@ -628,31 +628,33 @@ nav {
     }
 
     
+    .contact-info-container {
 
+        display: flex;
+
+        .contact-info {
+
+            flex-direction: column;
+            // padding: .5rem;
+        
+            a {
+        
+                text-decoration: none;
+                // margin:.5rem;
+            }
+        
+            .contact {
+        
+                margin-right: 3rem;
+            }
+          }
+      }
     
   }
 
-  .contact-info-container {
+  
 
-    display: flex;
-  }
-
-  .contact-info {
-
-    flex-direction: column;
-    // padding: .5rem;
-
-    a {
-
-        text-decoration: none;
-        // margin:.5rem;
-    }
-
-    .contact {
-
-        margin-right: 3rem;
-    }
-  }
+  
   
   /* The Close Button */
   .close {
