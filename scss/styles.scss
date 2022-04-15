@@ -8,6 +8,8 @@ $sbgrey: #9e9e9e;
 $sblight-grey: #F5F5F5;
 $sbolive: #628e43;
 
+
+
 * { 
     margin: 0;
     padding: 0;
@@ -675,7 +677,7 @@ nav {
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
+}
   
   .close:hover,
   .close:focus {
@@ -684,8 +686,4 @@ nav {
     cursor: pointer;
   }
 
-
-    
-
-
-    
+}

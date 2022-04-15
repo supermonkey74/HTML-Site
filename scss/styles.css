@@ -65,6 +65,7 @@ nav {
   justify-content: space-around;
   z-index: 1;
 }
+
 nav img {
   width: 10em;
 }
@@ -74,22 +75,26 @@ nav img {
   align-items: center;
   list-style: none;
 }
+
 #navbar ul li a {
   color: #fff;
   padding: 0.75rem;
   margin: 0.25rem;
   text-decoration: none;
 }
+
 #navbar ul li a:hover {
   background: #6f438e;
   border-radius: 5px;
 }
+
 #navbar ul li .events {
   background-color: transparent;
   border: #6f438e solid;
   cursor: pointer;
   border-radius: 5px;
 }
+
 #navbar ul li .events:hover {
   color: #9e9e9e;
 }
@@ -98,55 +103,76 @@ nav img {
   width: 20%;
   justify-content: center;
 }
+
 .social .fab {
   color: #fff;
-  margin: 1rem 0.5rem;
-  padding: 0.5rem;
+  margin: 1rem .5rem;
+  padding: 0.50rem;
 }
+
 .social .fab:hover {
   color: #a88ebb;
   cursor: pointer;
 }
+
 .social .fal {
-  margin: 1rem 0.5rem;
+  margin: 1rem .5rem;
   color: #fff;
-  padding: 0.5rem;
+  padding: 0.50rem;
 }
+
 .social .fal:hover {
   color: #a88ebb;
   cursor: pointer;
 }
 
-.showcase-container {
-  background: url("https://res.cloudinary.com/dmwa55z8u/image/upload/v1607733115/E2551863-C12F-42AE-881C-32662967A72D_hnszof.jpg");
+.contact-b {
+  background-color: transparent;
+  border: #6f438e solid;
+  cursor: pointer;
+  border-radius: 5px;
+  /* The Modal (background) */
+  /* Modal Content/Box */
+  /* The Close Button */
+}
+
+.contact-b:hover {
+  color: #9e9e9e;
+}
+
+.contact-b .showcase-container {
+  background: url("../assets/Katy-Ribbons.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 88.5vh;
-  color: #c1c2ac;
+  background-position: center;
+  color: #e7e6e1;
 }
-.showcase-container .showcase-content {
+
+.contact-b .showcase-container .showcase-content {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  padding: 10rem;
+  height: 88.5vh;
+  background-color: rgba(0, 0, 0, 0.5);
   position: relative;
-  top: 0;
-  left: 0;
-  background-color: rgba(240, 236, 243, 0.09);
-  animation: anim 3s 0.05s;
+  animation: anim 3s .05s;
 }
-.showcase-container .showcase-content .fas {
-  font-size: 0.6rem;
+
+.contact-b .showcase-container .showcase-content .fas {
+  font-size: .6rem;
   padding: 5px;
 }
-.showcase-container .l-heading {
+
+.contact-b .showcase-container .l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
 }
-.showcase-container .l-heading .lead {
+
+.contact-b .showcase-container .l-heading .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
@@ -159,42 +185,46 @@ nav img {
     opacity: 100;
   }
 }
-.trainers {
+
+.contact-b .trainers {
   display: flex;
 }
-.trainers p {
+
+.contact-b .trainers p {
   padding: 2rem;
 }
-.trainers h3 {
+
+.contact-b .trainers h3 {
   padding-bottom: 0 0 2rem 0;
 }
 
-.trainer-photo {
+.contact-b .trainer-photo {
   width: 8rem;
   height: 8rem;
   padding: 1rem;
 }
 
-.facility {
+.contact-b .facility {
   padding: 2rem;
 }
 
-.facility-inside-container {
+.contact-b .facility-inside-container {
   display: flex;
   flex-direction: column;
 }
 
-.inside-facility-description {
+.contact-b .inside-facility-description {
   padding: 5px 0;
 }
 
-.items {
+.contact-b .items {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
 }
-.items .item {
+
+.contact-b .items .item {
   color: #6f438e;
   display: flex;
   flex-direction: column;
@@ -203,65 +233,72 @@ nav img {
   width: 15rem;
   margin: 1rem;
 }
-.items .item p {
+
+.contact-b .items .item p {
   padding: 3px;
 }
-.items .item li {
-  margin: 0.5rem 1rem;
+
+.contact-b .items .item li {
+  margin: .5rem 1rem;
 }
-.items .item a {
+
+.contact-b .items .item a {
   color: #fff;
   text-decoration: none;
 }
-.items .item a:hover {
+
+.contact-b .items .item a:hover {
   background: #6f438e;
   border-radius: 2px;
   font-weight: 100;
   padding: 2px;
   color: #fff;
 }
-.items .item .item-image {
+
+.contact-b .items .item .item-image {
   width: 16rem;
   height: 15rem;
   padding-bottom: 1rem;
 }
 
-.m-heading {
+.contact-b .m-heading {
   font-size: 2rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
   padding-top: 5rem;
 }
 
-.py-1 {
+.contact-b .py-1 {
   padding: 1.5rem 0;
 }
 
-.py-2 {
+.contact-b .py-2 {
   padding: 2rem 0;
 }
 
-.py-3 {
+.contact-b .py-3 {
   padding: 4rem 0;
 }
 
-.services {
+.contact-b .services {
   background-color: #EDE8F1;
   width: 100vw;
 }
 
-.services-container {
+.contact-b .services-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-bottom: 2rem;
 }
-.services-container .items {
+
+.contact-b .services-container .items {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.services-container .items .item-serv {
+
+.contact-b .services-container .items .item-serv {
   color: #6f438e;
   display: flex;
   flex-direction: column;
@@ -270,45 +307,47 @@ nav img {
   width: 15rem;
   margin: 1rem;
 }
-.services-container .items .item-serv p {
-  padding-top: 0.5rem;
+
+.contact-b .services-container .items .item-serv p {
+  padding-top: .5rem;
   line-height: 1.1;
 }
-.services-container .items .item-serv .item-image {
+
+.contact-b .services-container .items .item-serv .item-image {
   width: 16rem;
   height: 15rem;
   padding-bottom: 1rem;
 }
 
-.services-inside-container {
+.contact-b .services-inside-container {
   width: 100%;
   height: 200px;
   padding-top: 2rem;
 }
 
-.photo-container {
+.contact-b .photo-container {
   width: 95%;
   margin: 2rem auto;
 }
 
-.gallery {
+.contact-b .gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
 }
 
-.gallery__img {
+.contact-b .gallery__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.gallery__item:hover {
+.contact-b .gallery__item:hover {
   width: 600px;
 }
 
-.gallery__item--1 {
+.contact-b .gallery__item--1 {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -318,7 +357,7 @@ nav img {
   /* grid-row: 1 / span 2; */
 }
 
-.gallery__item--2 {
+.contact-b .gallery__item--2 {
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -328,28 +367,28 @@ nav img {
   /* grid-row: 1 / span 2; */
 }
 
-.gallery__item--3 {
+.contact-b .gallery__item--3 {
   grid-column-start: 5;
   grid-column-end: 9;
   grid-row-start: 1;
   grid-row-end: 6;
   /** Alternative Syntax **/
   /* grid-column: 5 / span 4;
-  grid-row: 1 / span 5; */
+    grid-row: 1 / span 5; */
 }
 
-.gallery__item--4 {
+.contact-b .gallery__item--4 {
   /** Alternative Syntax **/
-  grid-column: 1/span 4;
-  grid-row: 3/span 3;
+  grid-column: 1 / span 4;
+  grid-row: 3 / span 3;
 }
 
-.gallery__item--5 {
-  grid-column: 1/span 4;
-  grid-row: 6/span 3;
+.contact-b .gallery__item--5 {
+  grid-column: 1 / span 4;
+  grid-row: 6 / span 3;
 }
 
-.gallery__item--6 {
+.contact-b .gallery__item--6 {
   grid-column-start: 5;
   grid-column-end: 9;
   grid-row-start: 6;
@@ -359,13 +398,12 @@ nav img {
   /* grid-row: 6 / span 3; */
 }
 
-#events-page {
+.contact-b #events-page {
   width: 100vw;
   height: 100vh;
 }
 
-/* The Modal (background) */
-.contactModal {
+.contact-b .contactModal {
   display: none;
   /* Hidden by default */
   position: fixed;
@@ -386,8 +424,7 @@ nav img {
   /* Black w/ opacity */
 }
 
-/* Modal Content/Box */
-.contact-modal-content {
+.contact-b .contact-modal-content {
   background-color: #fefefe;
   margin: 15% auto;
   /* 15% from the top and centered */
@@ -396,33 +433,37 @@ nav img {
   width: 80%;
   /* Could be more or less, depending on screen size */
 }
-.contact-modal-content h3 {
+
+.contact-b .contact-modal-content h3 {
   text-decoration: underline;
-  padding-bottom: 0.5rem;
+  padding-bottom: .5rem;
 }
-.contact-modal-content .contact-info-container {
+
+.contact-b .contact-modal-content .contact-info-container {
   display: flex;
 }
-.contact-modal-content .contact-info-container .contact-info {
+
+.contact-b .contact-modal-content .contact-info-container .contact-info {
   flex-direction: column;
 }
-.contact-modal-content .contact-info-container .contact-info a {
+
+.contact-b .contact-modal-content .contact-info-container .contact-info a {
   text-decoration: none;
 }
-.contact-modal-content .contact-info-container .contact-info .contact {
+
+.contact-b .contact-modal-content .contact-info-container .contact-info .contact {
   margin-right: 3rem;
 }
 
-/* The Close Button */
-.close {
+.contact-b .close {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.contact-b .close:hover,
+.contact-b .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
