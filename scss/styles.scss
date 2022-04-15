@@ -197,7 +197,16 @@ nav {
     }
 }
 
+.contact-b {
 
+    background-color: transparent;
+                border: $sbpurple solid;
+                cursor: pointer;
+                border-radius: 5px;
+                
+                &:hover {
+                    color: $sbgrey;
+}
 
 
 // Showcase
@@ -205,11 +214,12 @@ nav {
     .showcase-container {
 
 
-        background: url('https://res.cloudinary.com/dmwa55z8u/image/upload/v1607733115/E2551863-C12F-42AE-881C-32662967A72D_hnszof.jpg');
+        background: url('../assets/Katy-Ribbons.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        height: 88.5vh;
-        color: rgb(193, 194, 172);
+        background-position: center;      
+        // height: 88.5vh;
+        color: rgb(231, 230, 225);
         
 
         .showcase-content {
@@ -219,13 +229,11 @@ nav {
             text-align: center;
             justify-content: center;
             align-items: center;
-            height: 100%;
-            // padding: 0 3rem;
-            // Overlay
+            padding: 10rem;
+            height: 88.5vh;
+                // Overlay
+                background-color: rgba(0, 0, 0, 0.5);
             position: relative;
-            top: 0;
-            left: 0;
-            background-color: rgba(240,236,243, 0.09);
             animation: anim 3s .05s ;
 
             .fas {
@@ -233,8 +241,12 @@ nav {
                 padding: 5px;
             }
 
+            
+
         } 
 
+       
+          
         .l-heading {
 
             font-size:4rem;
